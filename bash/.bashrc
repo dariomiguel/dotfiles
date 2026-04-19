@@ -116,6 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Prompt evangelion
+PS1='\[\e[1;32m\]\u@\h \[\e[1;35m\]\w \[\e[0m\]$ '
 
-# ATAJOS
-alias obsidian='/home/dario/Apps/Obsidian-*.AppImage --no-sandbox'
