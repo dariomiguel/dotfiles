@@ -275,7 +275,8 @@ bindsym $mod+g exec firefox
 bindsym $mod+c exec galculator
 
 # Abrir explorador de archivos
-bindsym $mod+q exec pcmanfm-qt
+# bindsym $mod+q exec pcmanfm-qt
+bindsym $mod+q exec alacritty -e ranger
 
 # Abrir Obsidian
 bindsym $mod+o exec --no-startup-id ~/Apps/Obsidian-*.AppImage --no-sandbox
