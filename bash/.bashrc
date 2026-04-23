@@ -119,3 +119,7 @@ fi
 # Prompt evangelion
 PS1='\[\e[1;32m\]\u@\h \[\e[1;35m\]\w \[\e[0m\]$ '
 
+# Alias para sincronizar Obsidian
+#alias syncObsidian='rclone bisync ~/Documents/NotasObsidian/ "Google Drive:ObsidianVault" --backup-dir ~/rclone_backups --suffix ".backup" --verbose'
+alias syncObsidian='~/dotfiles/scripts/obsidian-sync.sh'
+
